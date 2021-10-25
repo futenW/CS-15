@@ -1,0 +1,23 @@
+Cartoon README
+Handin: Final Hand-in
+
+Overview: This is my teddy bear, Nana. My best friend and life-long companion,
+          she was so excited to meet Blueno until she moved on campus and found
+          he had graduated already o: Much was left to be desired until this cartoon
+          eased some of her misery.
+
+          Hold left/right arrow keys to change heart colors.
+          Hold up/down arrow keys to change background colors.
+          Press f to get a seizure.
+
+          edited in Adobe Photoshop
+
+Design Choices: Instantiates four hearts, each made of one rectangle and four circles. Each heart moves up and down
+                vertically, only visible when going up. Quit button and label are not visible until user has had a seizure
+                (for aesthetic purposes).
+
+Known Bugs: Whenever you hold down the arrow keys to change the colors, the RGB gets stuck at a certain color every few
+            iterations, though I'm not sure why. Also, in general, you have to press the keys really hard to register
+            for some reason :(
+
+Hours: >24 hours

@@ -1,0 +1,19 @@
+DoodleJump README
+
+Handin: might resubmit later
+
+Overview: Composed of five classes: App, PaneOrganizer, Game, Doodle, and Platform, as well as a constants class.
+          Root pane contains two panes: a pane for the game graphics and animations, as well as a pane for the quit button
+          Doodle can jump two platforms high and skip platforms for increased dynamic-ness of the game
+
+Design Choices: The Doodle class contains a boolean variable to keep track of whether it has collided with a platform yet.
+                If it has, it will no longer bounce when it hits the bottom and instead, falls to its death >:)
+                Platforms are generated at a constant height above each other while at a semi-random horizontal distance
+                from one another (verified through Piazza).
+
+Known Bugs: Must click on the window to play the game if IntelliJ is in full-screen (at least on my mac)
+
+Extra Credit: implemented smooth left/right movement with arrow keys
+              implemented score-keeping
+
+Hours: 10 hours

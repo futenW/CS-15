@@ -1,0 +1,14 @@
+Tetris README
+
+Handin: might resubmit later
+
+Overview: Composed of five classes: App, PaneOrganizer, Game, Piece, and TetrisSquare, as well as a constants class.
+
+Design Choices: The Game class contains a boolean variable to keep track of whether the game is currently paused and
+                another boolean to check whether the game has ended. Similarly, the Piece class contains a boolean to
+                check whether the piece is done moving. When each piece is instantiated, it also has a string instance
+                variable to keep track of whether is is the "O" piece for later when checking to see if it should rotate.
+
+Known Bugs: Piece sometimes doesn't listen to up key, though it mostly works properly.
+
+Hours: 20 hours
