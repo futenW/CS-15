@@ -1,0 +1,18 @@
+Pacman README
+
+Handin: May resubmit later
+
+Overview:
+    My Pacman has 13 classes: App, BoardCoordinate, Collidable (interface), Const(ants), Direction (enum),
+    Dot, Energizer, Game, Ghost, GhostPen, Pacman, PaneOrganizer, and SmartSquare.
+    Use arrow keys to move Pacman.
+
+Design Choices:
+    Alternates between 7 seconds of chase mode and 7 seconds of scatter mode. Fright mode lasts 7 seconds.
+
+Known Bugs:
+    Ghosts still turn 180 degrees during fright mode, even though they still use the BFS targeting mechanism (randomly) :(
+
+Hours: approx. 24 hours
+
+Extra credit: Pacman moves faster than the ghosts
